@@ -20,5 +20,6 @@ try:
     os.makedirs(path, exist_ok=True)
     with open(file, "w", encoding="utf-8") as f:
         f.write(code)
+    print('تم التحويل بنجاح ⚜️')
 except PermissionError:
     print("[!] راسلني مطور الاداة  @C_WC2.")
